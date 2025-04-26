@@ -6,25 +6,34 @@ using namespace std;
 
 
 
-bool hit_sphere(const point3& center, double redius, const ray& r){
+double hit_sphere(const point3& center, double redius, const ray& r){
     /* 
     refer to image calculating_sphere_part 1 and 2 + calculting_t
     
     */
     vec3 oc = center - r.origin();  // (C - P) or (C - Q), the vector from ray origin to sphere center
     auto a = dot(r.direction(), r.direction()); // d . d
-    auto b = -2.0 * dot(r.direction(), oc); // −2d⋅(C−Q)
+    auto h = -2.0 * dot(r.direction(), oc); // −2d⋅(C−Q)
     auto c = dot(oc, oc) - redius * redius; // (C − Q) · (C − Q) − r²
 
-    auto discriminant = b*b - 4*a*c; // b² - 4ac
-    return (discriminant >= 0);
+    auto discriminant = h*h - 4*a*c; // b² - 4ac
+    
+    if(discriminant < 0){
+        return -1.0;
+    }
+    else{
+        return (h - sqrt(discriminant)) /  a;
+    }
 }
 
 // returning color of the ray
 color ray_color(const ray& r) {
-    if(hit_sphere(point3(0, 0, -1), .5, r)){
-        return color(1,0,0);
+    auto t = hit_sphere(point3(0, 0, -1), 0.5, r);
+    if(t > 0.0){
+        vec3 N = unit_vector(r.at(t) - vec3(0, 0, -1)); // P - C meaning from the center of the sphere to the hit point of the ray
+            return 0.5 * color(N.x() + 1, N.y() + 1, N.z()+1);
     }
+    
     vec3 unit_direction = unit_vector(r.direction());
     auto a = 0.5*(unit_direction.y() + 1.0);
     return (1.0-a)*color(1.0, 1.0, 1.0) + a*color(0.5, 0.7, 1.0);
