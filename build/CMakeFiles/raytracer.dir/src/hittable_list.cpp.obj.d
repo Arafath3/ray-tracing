@@ -1,5 +1,7 @@
-CMakeFiles/raytracing.dir/src/main.cpp.obj: \
- C:\Users\arrif\Downloads\RayTracing\src\main.cpp \
+CMakeFiles/raytracer.dir/src/hittable_list.cpp.obj: \
+ C:\Users\arrif\Downloads\RayTracing\src\hittable_list.cpp \
+ C:/Users/arrif/Downloads/RayTracing/include/hittable_list.h \
+ C:/Users/arrif/Downloads/RayTracing/include/hittable.h \
  C:/Users/arrif/Downloads/RayTracing/include/common_header.h \
  c:\users\arrif\downloads\mingw\lib\gcc\mingw32\9.2.0\include\c++\cmath \
  c:\users\arrif\downloads\mingw\lib\gcc\mingw32\9.2.0\include\c++\mingw32\bits\c++config.h \
@@ -164,11 +166,7 @@ CMakeFiles/raytracing.dir/src/main.cpp.obj: \
  c:\users\arrif\downloads\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\stl_vector.h \
  c:\users\arrif\downloads\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\stl_bvector.h \
  c:\users\arrif\downloads\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\vector.tcc \
- C:/Users/arrif/Downloads/RayTracing/include/hittable.h \
- C:/Users/arrif/Downloads/RayTracing/include/common_header.h \
  C:/Users/arrif/Downloads/RayTracing/include/color.h \
  C:/Users/arrif/Downloads/RayTracing/include/vec3.h \
  C:/Users/arrif/Downloads/RayTracing/include/ray.h \
- C:/Users/arrif/Downloads/RayTracing/include/vec3.h \
- C:/Users/arrif/Downloads/RayTracing/include/hittable_list.h \
- C:/Users/arrif/Downloads/RayTracing/include/sphere.h
+ C:/Users/arrif/Downloads/RayTracing/include/vec3.h
