@@ -3,9 +3,11 @@
 
 CMakeFiles/raytracer.dir/src/main.cpp.obj
  C:/Users/arrif/Downloads/RayTracing/src/main.cpp
+ C:/Users/arrif/Downloads/RayTracing/include/camera.h
  C:/Users/arrif/Downloads/RayTracing/include/color.h
  C:/Users/arrif/Downloads/RayTracing/include/hittable.h
  C:/Users/arrif/Downloads/RayTracing/include/hittable_list.h
+ C:/Users/arrif/Downloads/RayTracing/include/interval.h
  C:/Users/arrif/Downloads/RayTracing/include/ray.h
  C:/Users/arrif/Downloads/RayTracing/include/rtweekend.h
  C:/Users/arrif/Downloads/RayTracing/include/sphere.h
@@ -72,6 +74,8 @@ CMakeFiles/raytracer.dir/src/main.cpp.obj
  c:/users/arrif/downloads/mingw/lib/gcc/mingw32/9.2.0/include/c++/bits/postypes.h
  c:/users/arrif/downloads/mingw/lib/gcc/mingw32/9.2.0/include/c++/bits/predefined_ops.h
  c:/users/arrif/downloads/mingw/lib/gcc/mingw32/9.2.0/include/c++/bits/ptr_traits.h
+ c:/users/arrif/downloads/mingw/lib/gcc/mingw32/9.2.0/include/c++/bits/random.h
+ c:/users/arrif/downloads/mingw/lib/gcc/mingw32/9.2.0/include/c++/bits/random.tcc
  c:/users/arrif/downloads/mingw/lib/gcc/mingw32/9.2.0/include/c++/bits/range_access.h
  c:/users/arrif/downloads/mingw/lib/gcc/mingw32/9.2.0/include/c++/bits/refwrap.h
  c:/users/arrif/downloads/mingw/lib/gcc/mingw32/9.2.0/include/c++/bits/shared_ptr.h
@@ -86,6 +90,7 @@ CMakeFiles/raytracer.dir/src/main.cpp.obj
  c:/users/arrif/downloads/mingw/lib/gcc/mingw32/9.2.0/include/c++/bits/stl_iterator.h
  c:/users/arrif/downloads/mingw/lib/gcc/mingw32/9.2.0/include/c++/bits/stl_iterator_base_funcs.h
  c:/users/arrif/downloads/mingw/lib/gcc/mingw32/9.2.0/include/c++/bits/stl_iterator_base_types.h
+ c:/users/arrif/downloads/mingw/lib/gcc/mingw32/9.2.0/include/c++/bits/stl_numeric.h
  c:/users/arrif/downloads/mingw/lib/gcc/mingw32/9.2.0/include/c++/bits/stl_pair.h
  c:/users/arrif/downloads/mingw/lib/gcc/mingw32/9.2.0/include/c++/bits/stl_raw_storage_iter.h
  c:/users/arrif/downloads/mingw/lib/gcc/mingw32/9.2.0/include/c++/bits/stl_relops.h
@@ -96,6 +101,7 @@ CMakeFiles/raytracer.dir/src/main.cpp.obj
  c:/users/arrif/downloads/mingw/lib/gcc/mingw32/9.2.0/include/c++/bits/streambuf_iterator.h
  c:/users/arrif/downloads/mingw/lib/gcc/mingw32/9.2.0/include/c++/bits/string_view.tcc
  c:/users/arrif/downloads/mingw/lib/gcc/mingw32/9.2.0/include/c++/bits/stringfwd.h
+ c:/users/arrif/downloads/mingw/lib/gcc/mingw32/9.2.0/include/c++/bits/uniform_int_dist.h
  c:/users/arrif/downloads/mingw/lib/gcc/mingw32/9.2.0/include/c++/bits/unique_ptr.h
  c:/users/arrif/downloads/mingw/lib/gcc/mingw32/9.2.0/include/c++/bits/uses_allocator.h
  c:/users/arrif/downloads/mingw/lib/gcc/mingw32/9.2.0/include/c++/bits/vector.tcc
@@ -136,12 +142,16 @@ CMakeFiles/raytracer.dir/src/main.cpp.obj
  c:/users/arrif/downloads/mingw/lib/gcc/mingw32/9.2.0/include/c++/mingw32/bits/error_constants.h
  c:/users/arrif/downloads/mingw/lib/gcc/mingw32/9.2.0/include/c++/mingw32/bits/gthr-default.h
  c:/users/arrif/downloads/mingw/lib/gcc/mingw32/9.2.0/include/c++/mingw32/bits/gthr.h
+ c:/users/arrif/downloads/mingw/lib/gcc/mingw32/9.2.0/include/c++/mingw32/bits/opt_random.h
  c:/users/arrif/downloads/mingw/lib/gcc/mingw32/9.2.0/include/c++/mingw32/bits/os_defines.h
  c:/users/arrif/downloads/mingw/lib/gcc/mingw32/9.2.0/include/c++/new
+ c:/users/arrif/downloads/mingw/lib/gcc/mingw32/9.2.0/include/c++/numeric
  c:/users/arrif/downloads/mingw/lib/gcc/mingw32/9.2.0/include/c++/ostream
  c:/users/arrif/downloads/mingw/lib/gcc/mingw32/9.2.0/include/c++/pstl/execution_defs.h
  c:/users/arrif/downloads/mingw/lib/gcc/mingw32/9.2.0/include/c++/pstl/glue_memory_defs.h
+ c:/users/arrif/downloads/mingw/lib/gcc/mingw32/9.2.0/include/c++/pstl/glue_numeric_defs.h
  c:/users/arrif/downloads/mingw/lib/gcc/mingw32/9.2.0/include/c++/pstl/pstl_config.h
+ c:/users/arrif/downloads/mingw/lib/gcc/mingw32/9.2.0/include/c++/random
  c:/users/arrif/downloads/mingw/lib/gcc/mingw32/9.2.0/include/c++/stdexcept
  c:/users/arrif/downloads/mingw/lib/gcc/mingw32/9.2.0/include/c++/streambuf
  c:/users/arrif/downloads/mingw/lib/gcc/mingw32/9.2.0/include/c++/string

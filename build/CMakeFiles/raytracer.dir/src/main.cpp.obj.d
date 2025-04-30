@@ -48,6 +48,7 @@ CMakeFiles/raytracer.dir/src/main.cpp.obj: \
  c:\users\arrif\downloads\mingw\lib\gcc\mingw32\9.2.0\include\c++\tr1\poly_hermite.tcc \
  c:\users\arrif\downloads\mingw\lib\gcc\mingw32\9.2.0\include\c++\tr1\poly_laguerre.tcc \
  c:\users\arrif\downloads\mingw\lib\gcc\mingw32\9.2.0\include\c++\tr1\riemann_zeta.tcc \
+ c:\users\arrif\downloads\mingw\lib\gcc\mingw32\9.2.0\include\c++\cstdlib \
  c:\users\arrif\downloads\mingw\lib\gcc\mingw32\9.2.0\include\c++\iostream \
  c:\users\arrif\downloads\mingw\lib\gcc\mingw32\9.2.0\include\c++\ostream \
  c:\users\arrif\downloads\mingw\lib\gcc\mingw32\9.2.0\include\c++\ios \
@@ -114,7 +115,6 @@ CMakeFiles/raytracer.dir/src/main.cpp.obj: \
  c:\users\arrif\downloads\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\functional_hash.h \
  c:\users\arrif\downloads\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\string_view.tcc \
  c:\users\arrif\downloads\mingw\lib\gcc\mingw32\9.2.0\include\c++\ext\string_conversions.h \
- c:\users\arrif\downloads\mingw\lib\gcc\mingw32\9.2.0\include\c++\cstdlib \
  c:\users\arrif\downloads\mingw\lib\gcc\mingw32\9.2.0\include\c++\cstdio \
  c:\users\arrif\downloads\mingw\include\stdio.h \
  c:\users\arrif\downloads\mingw\lib\gcc\mingw32\9.2.0\include\c++\cerrno \
@@ -160,17 +160,26 @@ CMakeFiles/raytracer.dir/src/main.cpp.obj: \
  c:\users\arrif\downloads\mingw\lib\gcc\mingw32\9.2.0\include\c++\backward\auto_ptr.h \
  c:\users\arrif\downloads\mingw\lib\gcc\mingw32\9.2.0\include\c++\pstl\glue_memory_defs.h \
  c:\users\arrif\downloads\mingw\lib\gcc\mingw32\9.2.0\include\c++\pstl\execution_defs.h \
- C:/Users/arrif/Downloads/RayTracing/include/color.h \
- C:/Users/arrif/Downloads/RayTracing/include/vec3.h \
- C:/Users/arrif/Downloads/RayTracing/include/rtweekend.h \
- C:/Users/arrif/Downloads/RayTracing/include/ray.h \
- C:/Users/arrif/Downloads/RayTracing/include/vec3.h \
- C:/Users/arrif/Downloads/RayTracing/include/interval.h \
- C:/Users/arrif/Downloads/RayTracing/include/hittable.h \
- C:/Users/arrif/Downloads/RayTracing/include/hittable_list.h \
- C:/Users/arrif/Downloads/RayTracing/include/hittable.h \
+ c:\users\arrif\downloads\mingw\lib\gcc\mingw32\9.2.0\include\c++\random \
+ c:\users\arrif\downloads\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\random.h \
  c:\users\arrif\downloads\mingw\lib\gcc\mingw32\9.2.0\include\c++\vector \
  c:\users\arrif\downloads\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\stl_vector.h \
  c:\users\arrif\downloads\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\stl_bvector.h \
  c:\users\arrif\downloads\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\vector.tcc \
+ c:\users\arrif\downloads\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\uniform_int_dist.h \
+ c:\users\arrif\downloads\mingw\lib\gcc\mingw32\9.2.0\include\c++\mingw32\bits\opt_random.h \
+ c:\users\arrif\downloads\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\random.tcc \
+ c:\users\arrif\downloads\mingw\lib\gcc\mingw32\9.2.0\include\c++\numeric \
+ c:\users\arrif\downloads\mingw\lib\gcc\mingw32\9.2.0\include\c++\bits\stl_numeric.h \
+ c:\users\arrif\downloads\mingw\lib\gcc\mingw32\9.2.0\include\c++\pstl\glue_numeric_defs.h \
+ C:/Users/arrif/Downloads/RayTracing/include/color.h \
+ C:/Users/arrif/Downloads/RayTracing/include/vec3.h \
+ C:/Users/arrif/Downloads/RayTracing/include/rtweekend.h \
+ C:/Users/arrif/Downloads/RayTracing/include/interval.h \
+ C:/Users/arrif/Downloads/RayTracing/include/ray.h \
+ C:/Users/arrif/Downloads/RayTracing/include/vec3.h \
+ C:/Users/arrif/Downloads/RayTracing/include/camera.h \
+ C:/Users/arrif/Downloads/RayTracing/include/hittable.h \
+ C:/Users/arrif/Downloads/RayTracing/include/hittable.h \
+ C:/Users/arrif/Downloads/RayTracing/include/hittable_list.h \
  C:/Users/arrif/Downloads/RayTracing/include/sphere.h
