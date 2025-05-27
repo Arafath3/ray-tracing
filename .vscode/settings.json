@@ -1,5 +1,4 @@
 {
-    "files.associations": {
-        "vector": "cpp"
-    }
+  "cmake.generator": "Unix Makefiles",
+  "cmake.buildDirectory": "build"
 }

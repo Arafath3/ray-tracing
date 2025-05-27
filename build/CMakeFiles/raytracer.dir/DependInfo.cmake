@@ -8,7 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/arrif/Downloads/RayTracing/src/main.cpp" "CMakeFiles/raytracer.dir/src/main.cpp.obj" "gcc" "CMakeFiles/raytracer.dir/src/main.cpp.obj.d"
+  "/home/arafath/Downloads/ray-tracing/src/main.cpp" "CMakeFiles/raytracer.dir/src/main.cpp.o" "gcc" "CMakeFiles/raytracer.dir/src/main.cpp.o.d"
+  "" "raytracer" "gcc" "CMakeFiles/raytracer.dir/link.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

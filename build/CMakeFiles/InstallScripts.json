@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"C:/Users/arrif/Downloads/RayTracing/build/cmake_install.cmake"
+		"/home/arafath/Downloads/ray-tracing/build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }
