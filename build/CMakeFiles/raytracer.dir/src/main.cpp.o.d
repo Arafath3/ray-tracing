@@ -202,6 +202,8 @@ CMakeFiles/raytracer.dir/src/main.cpp.o: \
  /home/arafath/Downloads/ray-tracing/include/vec3.h \
  /home/arafath/Downloads/ray-tracing/include/camera.h \
  /home/arafath/Downloads/ray-tracing/include/hittable.h \
+ /home/arafath/Downloads/ray-tracing/include/material.h \
  /home/arafath/Downloads/ray-tracing/include/hittable.h \
  /home/arafath/Downloads/ray-tracing/include/hittable_list.h \
- /home/arafath/Downloads/ray-tracing/include/sphere.h
+ /home/arafath/Downloads/ray-tracing/include/sphere.h \
+ /home/arafath/Downloads/ray-tracing/include/material.h

@@ -4,6 +4,7 @@
 #include "rtweekend.h"
 #include "vec3.h"    
 
+class material;
 
 class hit_record {
      /* a bundle of info about a single ray-object intersection */
@@ -12,6 +13,7 @@ class hit_record {
       vec3 normal; // surface noraml
       double t; // the distance along the ray where it hits
       bool front_face;
+      shared_ptr<material> mat;
   
       void set_face_normal(const ray& r, const vec3& outward_normal) {
           // Sets the hit record normal vector.
